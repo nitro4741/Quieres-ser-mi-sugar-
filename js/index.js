@@ -10,7 +10,7 @@ const documenReady = () => {
     alert('Gotcha');
     alert('Has capturado un Puchamon salvaje');
     alert('No se aceptas devoluciones 💖');
-    alert('Te amo mucho señora de mi corazon, feliz dia porq todos los dias que te lo dije tarde');
+    alert('Te amo mucho señora de mi corazon, feliz dia por todos los dias que te lo dije tarde');
     location.href = 'https://www.youtube.com/watch?v=xfDiy0va_ig';
     
    };
