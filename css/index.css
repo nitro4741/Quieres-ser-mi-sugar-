@@ -28,6 +28,10 @@
     width: 256px;
     height: 256px;
     object-fit: cover;
+    box-shadow: 2px 2px 2px black,
+                -2px -2px 2px black,
+                2px -2px 2px black,
+                -2px 2px 2px black;
 }
 .button{
     background-color: #8c166a;
