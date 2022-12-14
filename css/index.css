@@ -1,0 +1,54 @@
+.body {
+    background-color: #ee225e;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+}
+
+
+.hero {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.hero__title{
+    font-size: 2rem;
+    margin: 0;
+    text-align: center;
+}
+.hero__img{
+    display: flex;
+    border-radius: 50%;
+    width: 256px;
+    height: 256px;
+    object-fit: cover;
+}
+.button{
+    background-color: #8c166a;
+    border: 0.0625rem solid white;
+    border-radius: 0.3rem;
+    color: #d7bde9;
+    font-weight: 700;
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0.25em 1em;
+    cursor: pointer;
+    transition: box-shadow 0.25s, filter 0.25s, top 0.6s, top 0.6s;
+}
+
+.button:hover {
+    box-shadow: 0 0 0.25em 0.0625em #95bbe6;
+    filter: brightness(1.25);
+}
+
+.button--no {
+    position: absolute;
+    top: 90%;
+    transform: translate(-50%, -50%);
+}
